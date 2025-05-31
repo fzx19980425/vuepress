@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- 更大的圆，手柄更短 -->
+  <circle cx="440" cy="440" r="280" stroke="currentColor" stroke-width="64" fill="none"/>
+  <rect x="650" y="650" width="180" height="64" rx="32" transform="rotate(45 740 682)" fill="currentColor"/>
+</svg>

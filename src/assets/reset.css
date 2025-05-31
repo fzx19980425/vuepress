@@ -1,0 +1,173 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 自定义重置样式 */
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  outline: none;
+}
+
+/* 移除输入框的默认样式 */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* 移除文本域的默认样式 */
+textarea {
+  resize: none;
+}
+
+/* 移除图片的默认间距 */
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* 移除链接的默认样式 */
+a:focus {
+  outline: none;
+}
+
+/* 移除列表的默认样式 */
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* 移除表格的默认样式 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 移除引用元素的默认样式 */
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+/* 移除代码元素的默认样式 */
+code, pre {
+  font-family: monospace;
+}
+
+/* 移除水平线的默认样式 */
+hr {
+  border: none;
+  border-top: 1px solid #e6e6e6;
+  margin: 0;
+}
+
+/* 移除字段集的默认样式 */
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* 移除图例的默认样式 */
+legend {
+  padding: 0;
+}
+
+/* 移除按钮的默认样式 */
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* 移除选择框的默认样式 */
+select::-ms-expand {
+  display: none;
+}
+
+/* 移除搜索框的默认样式 */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+} 

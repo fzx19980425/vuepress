@@ -1,0 +1,46 @@
+{
+  "name": "fengzexiang_blog",
+  "version": "1.0.0",
+  "description": "个人博客",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:deploy": "bash deploy.sh",
+    "ui:dev": "vue-cli-service serve",
+    "ui:build": "vue-cli-service build",
+    "ui:build:lib": "vue-cli-service build --target lib --name ui-components src/components/index.js",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint"
+  },
+  "author": "fengzexiang",
+  "license": "ISC",
+  "keywords": [
+    "blog",
+    "ui-components"
+  ],
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-unit-jest": "~5.0.0",
+    "@vue/cli-service": "^4.5.19",
+    "@vue/test-utils": "^2.0.0",
+    "@vuepress/plugin-back-to-top": "^1.9.10",
+    "@vuepress/plugin-medium-zoom": "^1.9.10",
+    "@vuepress/plugin-nprogress": "^1.9.10",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "sass": "^1.32.7",
+    "sass-loader": "^10.1.1",
+    "svg-sprite-loader": "^6.0.11",
+    "vue-template-compiler": "^2.6.14",
+    "vuepress": "^1.9.10"
+  },
+  "dependencies": {
+    "async-validator": "^4.2.5",
+    "core-js": "^3.8.3",
+    "date-fns": "^2.29.3",
+    "vue": "^2.6.14"
+  }
+}
