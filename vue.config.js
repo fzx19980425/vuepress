@@ -5,11 +5,12 @@ function resolve(dir) {
 }
 
 module.exports = {
+  publicPath: './',
   // 更细粒度的 webpack 配置
   chainWebpack: config => {
     // 移除 prefetch 插件
     config.plugins.delete('prefetch')
-    
+
     // 添加自定义 loader
     config.module.rule('svg').exclude.add(resolve('src/assets/icons')).end()
     config.module
