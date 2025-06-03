@@ -2,6 +2,9 @@ module.exports = {
   base: '/blog/',
   title: '胖虎 博客',
   description: '胖虎 个人技术博客',
+  head: [
+    ['link', { rel: 'icon', href: '/images/hero.png' }]
+  ],
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
@@ -25,7 +28,7 @@ module.exports = {
         text: 'UI',
         items: [
           { text: '设计规范', link: '/ui/' },
-          { text: '设计组件', link: 'https://fzx19980425.github.io/ui/' },
+          { text: '设计组件', link: 'https://fzx19980425.github.io/UI/' },
         ]
       },
       {
